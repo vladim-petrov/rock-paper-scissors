@@ -16,8 +16,8 @@ function getComputerChoice() {
 }
 
 // get player input (case-insensitive)
-const playerSelection = parseInt(prompt("Choose: rock, paper or scissors","Type: 1 for Rock, 2 for Paper or 3 for Scissors").toLowerCase());
-const computerSelection = getComputerChoice();
+// const playerSelection = parseInt(prompt("Choose: rock, paper or scissors","Type: 1 for Rock, 2 for Paper or 3 for Scissors").toLowerCase());
+// const computerSelection = getComputerChoice();
 
 // Write the logic of rock, paper, scissors game
 //
@@ -48,7 +48,7 @@ function playRound(playerSelection, computerSelection) {
 }
 
 
-console.log(playRound(playerSelection, computerSelection));
+// console.log(playRound(playerSelection, computerSelection));
 
 
 // function game() until 5 wins by player or cpu
